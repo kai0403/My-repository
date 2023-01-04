@@ -1,0 +1,15 @@
+﻿  Function.c
+  Main.c
+D:\My_Repository\Profit_Bonus\Main.c(17,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(21,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(25,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(29,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(33,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(37,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(8,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(9,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(10,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(11,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\My_Repository\Profit_Bonus\Main.c(12,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  Profit_Bonus.vcxproj -> D:\My_Repository\Profit_Bonus\x64\Debug\Profit_Bonus.exe
