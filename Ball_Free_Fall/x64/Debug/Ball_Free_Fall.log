@@ -1,0 +1,3 @@
+﻿  Function.c
+D:\My_Repository\Ball_Free_Fall\Function.c(17,12): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Ball_Free_Fall.vcxproj -> D:\My_Repository\Ball_Free_Fall\x64\Debug\Ball_Free_Fall.exe
