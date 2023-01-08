@@ -6,8 +6,14 @@
 #include<stdlib.h>
 #include<math.h>
 #include<time.h>
+//int Add(int x, int y);
+//char* My_Strcpy(char* x, char* y);//函数声明
+//unsigned long int My_Strlen(const char* str);
+//int Check();
+//void Print(int(*parr)[5], int x, int y);
+void Menu();
 int Add(int x, int y);
-char* My_Strcpy(char* x, char* y);//函数声明
-unsigned long int My_Strlen(const char* str);
-int Check();
-void Print(int(*parr)[5], int x, int y);
+int Sub(int x, int y);
+int Mul(int x, int y);
+int Div(int x, int y);
+void Calc(int (*p)(int, int));

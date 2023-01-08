@@ -120,10 +120,38 @@ int main()
 		}
 		printf("\n");
 	}*/
-	int arr[3][5] = { {1,3,5,7,9}, {2,3,4,5,6}, {3,4,5,6,7} };
-    void (*p) (int * [5], int, int) = Print;
-	printf("%p\n", *p);
-	printf("%p\n", Print);
-	p(arr, 3, 5);
+	//int arr[3][5] = { {1,3,5,7,9}, {2,3,4,5,6}, {3,4,5,6,7} };
+ //   void (*p) (int * [5], int, int) = Print;
+	//printf("%p\n", *p);
+	//printf("%p\n", Print);
+	//p(arr, 3, 5);
+	int input = 0;
+	do
+	{
+		Menu();
+		printf("Please input your choice:\n");
+		scanf("%d", &input);
+		switch (input)
+		{
+		case 1:
+			Calc(Add);
+			break;
+		case 2:
+			Calc(Sub);
+			break;
+		case 3:
+			Calc(Mul);
+			break;
+		case 4:
+			Calc(Div);
+			break;
+		case 0:
+			printf("Exit succeed!\n");
+			break;
+		default:
+			printf("Wrong number, try again!\n");
+			break;
+		}
+	} while (input);
 	return 0;
 }
