@@ -48,40 +48,61 @@
 //		}
 //		printf("\n");
 //	}
-void Menu()
-{
-	printf("1.Add\n");
-	printf("2.Sub\n");
-	printf("3.Mul\n");
-	printf("4.Div\n");
-	printf("0.Exit\n");
-}
+//void Menu()
+//{
+//	printf("1.Add\n");
+//	printf("2.Sub\n");
+//	printf("3.Mul\n");
+//	printf("4.Div\n");
+//	printf("0.Exit\n");
+//}
+//
+//int Add(int x, int y)
+//{
+//	return x + y;
+//}
+//
+//int Sub(int x, int y)
+//{
+//	return x - y;
+//}
+//
+//int Mul(int x, int y)
+//{
+//	return x * y;
+//}
 
-int Add(int x, int y)
+//int Div(int x, int y)
+//{
+//	return x / y;
+//}
+//
+//void Calc(int (*p)(int, int))
+//{
+//	int x = 0;
+//	int y = 0;
+//	printf("Please input two integral numbers:\n");
+//	scanf("%d%d", &x, &y);
+//	printf("The result is %d\n",p(x, y));
+////}
+//void Sizeof(int arr[], int n)
+//{
+//	printf("%d\n", sizeof(arr) / sizeof(arr[0]));
+//}
+void Bubble_Order(int arr[], int n)
 {
-	return x + y;
-}
-
-int Sub(int x, int y)
-{
-	return x - y;
-}
-
-int Mul(int x, int y)
-{
-	return x * y;
-}
-
-int Div(int x, int y)
-{
-	return x / y;
-}
-
-void Calc(int (*p)(int, int))
-{
-	int x = 0;
-	int y = 0;
-	printf("Please input two integral numbers:\n");
-	scanf("%d%d", &x, &y);
-	printf("The result is %d\n",p(x, y));
+	int i = 0;
+	int j = 0;
+	for (i = 0; i < n - 1; i++)
+	{
+		for (j = 0; j < n - 1 - i; j++)
+		{
+			if (arr[j] < arr[j + 1])
+			{
+				int temp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = temp;
+			}
+		}
+	}
 }

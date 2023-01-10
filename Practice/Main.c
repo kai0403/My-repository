@@ -125,7 +125,7 @@ int main()
 	//printf("%p\n", *p);
 	//printf("%p\n", Print);
 	//p(arr, 3, 5);
-	int input = 0;
+	/*int input = 0;
 	do
 	{
 		Menu();
@@ -152,6 +152,17 @@ int main()
 			printf("Wrong number, try again!\n");
 			break;
 		}
-	} while (input);
+	} while (input);*/
+	/*int arr[] = { 9,8,7,6,5,4,3,2,1 };
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	Sizeof(arr, sz);*/
+	int arr[] = { 1,2,3,4,5,6,7,8,9 };
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	int i = 0;
+	Bubble_Order(arr, sz);
+	for (i = 0; i < sz; i++)
+	{
+		printf("%-4d", arr[i]);
+	}
 	return 0;
 }
