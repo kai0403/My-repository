@@ -1,112 +1,79 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #pragma warning(disable:6031)
 #include"Function.h"
-//int Add(int x, int y)
-//{
-//	return x + y;
-//}
-//
-//char* My_Strcpy(char* dest, const char* src)
-//{
-//	char* ret = dest;//保存目的字符串首元素地址
-//	assert(dest != NULL);//排除空指针
-//	assert(src != NULL);//排除空指针
-//	while (*dest++ = *src++)//将源字符串拷贝到目的字符串中
-//	{
-//		;
-//	}
-//	return ret;//返回目的字符串
-//}
-//
-//unsigned long int My_Strlen(const char* str)
-//{
-//	assert(str != NULL);
-//	int count = 0;
-//	while (*str != '\0')
-//	{
-//		count++;
-//		str++;
-//	}
-//	return count;
-//}
-//
-//int Check()
-//{
-//	int a = 1;
-//	return *((char*) &a);
-//}
-//
-//void Print(int(*parr)[5], int x, int y)
-//{
-//	int i = 0;
-//	int j = 0;
-//	for (i = 0; i < x; i++)
-//	{
-//		for (j = 0; j < y; j++)
-//		{
-//			printf("%d ", *(parr[i] + j));
-//		}
-//		printf("\n");
-//	}
-//void Menu()
-//{
-//	printf("1.Add\n");
-//	printf("2.Sub\n");
-//	printf("3.Mul\n");
-//	printf("4.Div\n");
-//	printf("0.Exit\n");
-//}
-//
-//int Add(int x, int y)
-//{
-//	return x + y;
-//}
-//
-//int Sub(int x, int y)
-//{
-//	return x - y;
-//}
-//
-//int Mul(int x, int y)
-//{
-//	return x * y;
-//}
-
-//int Div(int x, int y)
-//{
-//	return x / y;
-//}
-//
-//void Calc(int (*p)(int, int))
-//{
-//	int x = 0;
-//	int y = 0;
-//	printf("Please input two integral numbers:\n");
-//	scanf("%d%d", &x, &y);
-//	printf("The result is %d\n",p(x, y));
-////}
-//void Sizeof(int arr[], int n)
-//{
-//	printf("%d\n", sizeof(arr) / sizeof(arr[0]));
-//}
-//void Bubble_Order(int arr[], int n)
-//{
-//	int i = 0;
-//	int j = 0;
-//	for (i = 0; i < n - 1; i++)
-//	{
-//		for (j = 0; j < n - 1 - i; j++)
-//		{
-//			if (arr[j] < arr[j + 1])
-//			{
-//				int temp = arr[j];
-//				arr[j] = arr[j + 1];
-//				arr[j + 1] = temp;
-//			}
-//		}
-//	}
-//}
-int cmp(const void* a, const void* b)
+struct Student
 {
-	return *(int*)b - *(int*)a;
+	char name[20];
+	int age;
+};//定义一个结构体类型Student, 属性包括学生姓名和年龄
+
+int cmp_int(void* a, void* b)
+{
+	return *(int*)a - *(int*)b;
+}//实现整型数组元素的比较
+
+int cmp_struct_age(void* a, void* b)
+{
+	return ((struct Student*)a)->age - ((struct Student*)b)->age;
+}//实现结构体按年龄的比较
+
+int cmp_struct_name(void* a, void* b)
+{
+	return strcmp(((struct Student*)a)->name, ((struct Student*)b)->name);
+}
+
+void Swap(char* a, char* b, int width)
+{
+	int i = 0;
+	for (i = 0; i < width; i++)
+	{
+		char temp = *(a + i);
+		*(a + i) = *(b + i);
+		*(b + i) = temp;
+	}
+}
+void Bubble_Order(void* base, int num, int width, int(*cmp)(void*, void*))
+{
+	int i = 0;
+	int j = 0;
+	for (i = 0; i < num; i++)
+	{
+		for (j = 0; j < num - 1 - i; j++)
+		{
+			if (cmp((char*)base + j * width, (char*)base + (j + 1) * width) > 0)
+			{
+				Swap((char*)base + j * width, (char*)base + (j + 1) * width, width);
+			}
+		}
+	}
+}
+
+void Bubble_Order_Int()
+{
+	int i = 0;
+	int arr[] = { 9,8,7,6,5,4,3,2,1,0 };//待排序的整型数组
+	int sz1 = sizeof(arr) / sizeof(arr[0]);//计算整型数组元素的个数
+	Bubble_Order(arr, sz1, sizeof(arr[0]), cmp_int);
+	for (i = 0; i < sz1; i++)
+	{
+		printf("%-4d\n", arr[i]);
+	}//打印排序后的整型数组
+}
+
+void Bubble_Order_Struct()
+{
+	int i = 0;
+	struct Student stu[] = { {"Zhangsan", 40}, {"Lisi", 30}, {"Wangwu", 50} };//需要排序的结构体数组
+	int sz2 = sizeof(stu) / sizeof(stu[0]);//计算结构体数组元素的个数
+	Bubble_Order(stu, sz2, sizeof(stu[0]), cmp_struct_age);
+	for (i = 0; i < sz2; i++)
+	{
+		printf("%d\n", stu[i].age);
+	}//打印排序后的年龄
+
+	Bubble_Order(stu, sz2, sizeof(stu[0]), cmp_struct_name);
+	for (i = 0; i < sz2; i++)
+	{
+		printf("%s\n", stu[i].name);
+	}//打印排序后的姓名
 }
