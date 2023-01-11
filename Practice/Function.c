@@ -89,20 +89,24 @@
 //{
 //	printf("%d\n", sizeof(arr) / sizeof(arr[0]));
 //}
-void Bubble_Order(int arr[], int n)
+//void Bubble_Order(int arr[], int n)
+//{
+//	int i = 0;
+//	int j = 0;
+//	for (i = 0; i < n - 1; i++)
+//	{
+//		for (j = 0; j < n - 1 - i; j++)
+//		{
+//			if (arr[j] < arr[j + 1])
+//			{
+//				int temp = arr[j];
+//				arr[j] = arr[j + 1];
+//				arr[j + 1] = temp;
+//			}
+//		}
+//	}
+//}
+int cmp(const void* a, const void* b)
 {
-	int i = 0;
-	int j = 0;
-	for (i = 0; i < n - 1; i++)
-	{
-		for (j = 0; j < n - 1 - i; j++)
-		{
-			if (arr[j] < arr[j + 1])
-			{
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
-		}
-	}
+	return *(int*)b - *(int*)a;
 }

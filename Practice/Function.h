@@ -18,4 +18,5 @@
 //int Div(int x, int y);
 //void Calc(int (*p)(int, int));
 //void Sizeof(int arr[], int n);
-void Bubble_Order(int arr[], int n);
+//void Bubble_Order(int arr[], int n);
+int cmp(const void* a, const void* b);
