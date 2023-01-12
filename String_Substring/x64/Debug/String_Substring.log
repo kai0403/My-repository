@@ -1,0 +1,4 @@
+﻿  Main.c
+D:\My_Repository\String_Substring\Main.c(8,34): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\My_Repository\String_Substring\Main.c(8,48): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+  String_Substring.vcxproj -> D:\My_Repository\String_Substring\x64\Debug\String_Substring.exe
