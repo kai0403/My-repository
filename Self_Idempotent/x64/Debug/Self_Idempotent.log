@@ -1,0 +1,3 @@
+﻿  Main.c
+D:\Practice\Practice_C\Self_Idempotent\Main.c(20,11): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  Self_Idempotent.vcxproj -> D:\Practice\Practice_C\Self_Idempotent\x64\Debug\Self_Idempotent.exe

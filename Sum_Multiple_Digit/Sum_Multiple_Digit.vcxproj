@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0dc0486a-f7e4-40c0-bfe3-6cd27f6e57ad}</ProjectGuid>
-    <RootNamespace>ReverseString</RootNamespace>
+    <ProjectGuid>{abf35512-69c5-429d-b60d-2ee850371647}</ProjectGuid>
+    <RootNamespace>SumMultipleDigit</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -130,8 +130,8 @@
     <ClInclude Include="Function.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Function.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Function.c" />
+    <ClCompile Include="Main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
