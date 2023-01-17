@@ -1,0 +1,8 @@
+﻿  Function.cpp
+  Main.cpp
+D:\Practice\Calculate_Payment\Main.cpp(16,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Practice\Calculate_Payment\Main.cpp(20,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Practice\Calculate_Payment\Main.cpp(24,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Practice\Calculate_Payment\Main.cpp(28,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  Calculate_Payment.vcxproj -> D:\Practice\Calculate_Payment\x64\Debug\Calculate_Payment.exe
