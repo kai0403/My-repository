@@ -1,1 +1,1 @@
-D:\My_Repository\Multiplication_Table\x64\Debug\Multiplication_Table.exe
+D:\Practice\Practice_C++\Multiplication_Table\x64\Debug\Multiplication_Table.exe

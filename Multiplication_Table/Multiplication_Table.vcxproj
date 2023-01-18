@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4df7b37c-a357-4f85-bdc2-aecdf642b2ad}</ProjectGuid>
+    <ProjectGuid>{b461fccc-8d1c-4906-894b-408a87478811}</ProjectGuid>
     <RootNamespace>MultiplicationTable</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -130,8 +130,8 @@
     <ClInclude Include="Function.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Function.c" />
-    <ClCompile Include="Main.c" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
