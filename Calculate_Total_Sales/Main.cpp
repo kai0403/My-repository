@@ -3,11 +3,14 @@
 #include"Function.h"
 int main()
 {
-	int arr[4][2] = { {1, 226644}, {2, 773388}, {3, 254565}, {4, 116699} };
+	int arr[4][3] = { {22, 66, 44}, {77, 33, 88}, {25, 45, 65}, {11, 66, 99} };
 	long long int sum = 0;
 	for (int i = 0; i < 4; i++)
 	{
-		sum += arr[i][1];
+		for (int j = 0; j < 3; j++)
+		{
+			sum += arr[i][j];
+		}
 	}
 	cout << sum << endl;
 	return 0;

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6c86dcea-08eb-46e9-bc72-28f5d9307e8b}</ProjectGuid>
-    <RootNamespace>StringCatch</RootNamespace>
+    <ProjectGuid>{df2827f8-dd0b-4000-ac88-96bbe57d2dec}</ProjectGuid>
+    <RootNamespace>CalculateFrequency</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
