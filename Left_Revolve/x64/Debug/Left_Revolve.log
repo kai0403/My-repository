@@ -1,0 +1,6 @@
+﻿  Function.c
+D:\Practice\Practice_C\Left_Revolve\Function.c(6,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Practice\Practice_C\Left_Revolve\Function.c(7,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Main.c
+  正在生成代码...
+  Left_Revolve.vcxproj -> D:\Practice\Practice_C\Left_Revolve\x64\Debug\Left_Revolve.exe
