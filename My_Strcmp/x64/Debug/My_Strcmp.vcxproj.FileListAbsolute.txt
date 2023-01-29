@@ -1,1 +1,1 @@
-D:\Practice\Practice_C++\My_Strcmp\x64\Debug\My_Strcmp.exe
+D:\Practice\Practice_C\My_Strcmp\x64\Debug\My_Strcmp.exe

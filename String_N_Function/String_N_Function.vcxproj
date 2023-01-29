@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7c409e6d-43d8-436b-839e-f2b536917f7a}</ProjectGuid>
-    <RootNamespace>MyStrcmp</RootNamespace>
+    <ProjectGuid>{b16901d6-2d71-4126-9f2c-aa3b6cf1e9d2}</ProjectGuid>
+    <RootNamespace>StringNFunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

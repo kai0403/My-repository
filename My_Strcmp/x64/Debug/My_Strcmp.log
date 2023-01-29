@@ -1,4 +1,4 @@
-﻿  Function.cpp
-D:\Practice\Practice_C++\My_Strcmp\Function.cpp(6,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\Practice\Practice_C++\My_Strcmp\Function.cpp(7,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  My_Strcmp.vcxproj -> D:\Practice\Practice_C++\My_Strcmp\x64\Debug\My_Strcmp.exe
+﻿  Function.c
+D:\Practice\Practice_C\My_Strcmp\Function.c(4,26): warning C4028: 形参 1 与声明不同
+D:\Practice\Practice_C\My_Strcmp\Function.c(4,44): warning C4028: 形参 2 与声明不同
+  My_Strcmp.vcxproj -> D:\Practice\Practice_C\My_Strcmp\x64\Debug\My_Strcmp.exe
