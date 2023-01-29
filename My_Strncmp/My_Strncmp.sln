@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "My_Strncmp", "My_Strncmp.vcxproj", "{862998DB-D896-408C-8C3F-118BB0A53049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Debug|x64.ActiveCfg = Debug|x64
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Debug|x64.Build.0 = Debug|x64
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Debug|x86.ActiveCfg = Debug|Win32
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Debug|x86.Build.0 = Debug|Win32
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Release|x64.ActiveCfg = Release|x64
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Release|x64.Build.0 = Release|x64
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Release|x86.ActiveCfg = Release|Win32
+		{862998DB-D896-408C-8C3F-118BB0A53049}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3492E312-5F45-43F5-B919-A3E7F5ECEA11}
+	EndGlobalSection
+EndGlobal
