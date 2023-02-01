@@ -1,0 +1,5 @@
+﻿  Function.cpp
+D:\Practice\Practice_C++\String_Reverse_Quote\Function.cpp(6,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Main.cpp
+  正在生成代码...
+  String_Reverse_Quote.vcxproj -> D:\Practice\Practice_C++\String_Reverse_Quote\x64\Debug\String_Reverse_Quote.exe
