@@ -1,0 +1,5 @@
+﻿  Function.cpp
+D:\Practice\Practice_C++\Pointer_Struct\Function.cpp(6,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Main.cpp
+  正在生成代码...
+  Pointer_Struct.vcxproj -> D:\Practice\Practice_C++\Pointer_Struct\x64\Debug\Pointer_Struct.exe
