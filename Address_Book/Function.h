@@ -1,42 +1,36 @@
 #pragma once
-#include <stdio.h>
-#include <string.h>
-#define MAX_NAME 20
-#define MAX_SEX 10
-#define MAX_TELE 12
-#define MAX_ADDR 100
-#define MAX 1000
-enum Option
+#include <iostream>
+using namespace std;
+#include <string>
+#define MAX 1000//定义通讯录最大容量为1000
+enum Option//设置通讯录不同功能为枚举常量
 {
-	EXIT,
-	ADD,
-	DELETE,
-	MODIFY,
-	SEARCH,
-	SORT,
-	SHOW
+	Exit,
+	Add,
+	Show,
+	Delete,
+	Find,
+	Modify,
+	Clear
 };
-struct PeoInf
+struct Contacts//设计联系人结构体
 {
-	char name[MAX_NAME];
+	string name;
+	string phone;
+	string address;
+	string sex;//联系人的性别，0为女，1为男
 	int age;
-	char sex[MAX_SEX];
-	char tele[MAX_TELE];
-	char addr[MAX_ADDR];
 };
-
-struct Contact
+struct Addressbook//设计通讯录结构体
 {
-	struct PeoInf data[MAX];
-	int size;
+	struct Contacts contactsArray[MAX];//通讯录里的联系人
+	int size;//通讯录里现有的联系人个数
 };
-void Menu(struct Contact* pc);//菜单函数
-void Init(struct Contact* pc);//初始化通讯录
-void Add(struct Contact* pc);//增加信息到通讯录中
-void Delete(struct Contact* pc);//删除通讯录中的信息
-void Modify(struct Contact* pc);//修改通讯录中的信息
-void Search(const struct Contact* pc);//在通讯录中查找信息
-void Sort(struct Contact* pc);//对通讯录中的信息进行排序
-void Show(const struct Contact* pc);//展示通信录中的信息
-int FindByName(const struct Contact* pc, char name[MAX_NAME]);//寻找通讯录中对应的名字
-
+void ShowMenu(struct Addressbook* pabs);
+void AddPerson(struct Addressbook* pabs);
+void ShowPerson(const struct Addressbook* pabs);
+int Isexist(const struct Addressbook* pabs, string name);
+void DeletePerson(struct Addressbook* pabs, int n);
+void FindPerson(const struct Addressbook* pabs);
+void ModifyPerson(struct Addressbook* pabs);
+void ClearPerson(struct Addressbook* pabs);

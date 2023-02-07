@@ -20,10 +20,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Function.c">
+    <ClCompile Include="Function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Main.c">
+    <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
