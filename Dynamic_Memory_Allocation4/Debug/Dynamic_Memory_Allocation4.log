@@ -1,0 +1,5 @@
+﻿  Function.c
+  Main.c
+  正在生成代码...
+D:\Practice\Practice_C\Dynamic_Memory_Allocation4\Function.c(7): warning C4172: 返回局部变量或临时变量的地址: p
+  Dynamic_Memory_Allocation4.vcxproj -> D:\Practice\Practice_C\Dynamic_Memory_Allocation4\Debug\Dynamic_Memory_Allocation4.exe
