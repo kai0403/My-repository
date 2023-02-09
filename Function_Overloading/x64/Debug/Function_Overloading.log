@@ -1,0 +1,5 @@
+﻿  Function.cpp
+D:\Practice\Practice_C++\Function_Overloading\Function.cpp(45,6): error C2084: 函数“void Func(int,int)”已有主体
+D:\Practice\Practice_C++\Function_Overloading\Function.cpp(40,6): message : 参见“Func”的前一个定义
+  Main.cpp
+  正在生成代码...
