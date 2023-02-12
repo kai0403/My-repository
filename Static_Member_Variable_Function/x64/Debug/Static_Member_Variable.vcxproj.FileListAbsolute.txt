@@ -1,0 +1,1 @@
+D:\Practice\Practice_C++\Static_Member_Variable\x64\Debug\Static_Member_Variable.exe
