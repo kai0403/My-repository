@@ -1,0 +1,10 @@
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 0
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 1
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 2
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 3
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 4
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 5
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 6
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 7
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 8
+data: Feb 16 2023, time: 20:01:55, line: 35, file: D:\Practice\Practice_C\C_Pretreatment\Main.c, i= 9
