@@ -1,0 +1,8 @@
+﻿  Function.c
+D:\Practice\Practice_C\Linear_List\Function.h(1,1): warning C4828: 文件包含在偏移 0x205 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\Practice\Practice_C\Linear_List\Function.c(59,80): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\Practice\Practice_C\Linear_List\Function.c(60,80): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Main.c
+D:\Practice\Practice_C\Linear_List\Function.h(1,1): warning C4828: 文件包含在偏移 0x205 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  正在生成代码...
+  Linear_List.vcxproj -> D:\Practice\Practice_C\Linear_List\x64\Debug\Linear_List.exe
